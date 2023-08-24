@@ -10,9 +10,7 @@ Contexto:
 Dado que o cliente configure o produto na EBAC-SHOP
 
 Cenário: Campo Obrigatório
-Quando o cliente selecionar a cor "Azul"
-E o tamanho "G"
-E a quantidade "0"
+Quando o cliente selecionar a cor "Azul", o tamanho "G", a quantidade "0"
 Então deve emitir uma mensagem de alerta "Campo Obrigatório Não Selecionado."
 
 Cenário: Quantidade de Produtos por Venda
